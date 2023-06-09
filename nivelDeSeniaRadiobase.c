@@ -28,7 +28,9 @@ double prx();
 
 int main() {
 
-    printf("Los decibeles que me llegan son: %f \n", prx());
+    printf("Los decibeles que me llegan son: %f DB\n", prx());
+    printf("La atenuación del medio: : %f DB\n", l());
+    printf("Pérdidas por propagación cuando el móvil se mueve verticalmente: %f DB\n", a());
 
     return 0;
 }
