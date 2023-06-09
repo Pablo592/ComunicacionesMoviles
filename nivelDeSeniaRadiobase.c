@@ -15,13 +15,6 @@ double atenuacionConectores = 1;
 double conectorCelular = 1;
 
 
-
-//Es decir, la potencia recibida por el celular Prx, los -101 dBm, es igual a la potencia transmitida por la 
-//antena de la torre mas la ganancia de la antena menos la atenuacion del medio menos 1 dB de atenuacion de 
-//los conectores mas la ganancia de la antena del celular que pueden ser 2dB menos 1 dB de atenuacio del conector del celular.
-
-
-
 double l();
 double a();
 double prx();
